@@ -1,0 +1,7 @@
+@import "../../Constants";
+
+.chat {
+  display: grid;
+  height: calc(100vh - 50px);
+  grid-template-rows: 1fr 50px;
+}

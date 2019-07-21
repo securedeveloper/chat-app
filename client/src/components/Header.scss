@@ -1,0 +1,44 @@
+@import "../Constants";
+
+
+@mixin headNavMixin($background-color, $color) {
+  $new-background-color: darken($background-color, 2%);
+  background-color: $new-background-color;
+
+  .nav-link,
+  .nav-link:hover {
+    color: $color;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    border-bottom: 2px $new-background-color;
+
+    &:hover {
+      border-bottom: 2px $color;
+    }
+  }
+}
+
+.header {
+  .col {
+    padding: 0;
+  }
+
+  .navbar {
+    padding: 0;
+
+    .nav-link {
+      border-radius: 0;
+    }
+  }
+
+  &.dark {
+    @include headNavMixin($color-dark, $color-light)
+  }
+
+  &.light {
+    @include headNavMixin($color-light, $color-dark)
+  }
+}

@@ -1,0 +1,29 @@
+@import "Constants";
+
+.app {
+  min-height: 100vh;
+
+  &.dark {
+    background-color: lighten($color-dark, 20%);
+    color: $color-light;
+
+    .dropdown .btn {
+      color: $color-dark;
+      background-color: lighten($color-light, 20%);
+    }
+  }
+
+  &.light {
+    background-color: lighten($color-light, 10%);
+    color: $color-dark;
+
+    .dropdown .btn {
+      color: lighten($color-dark, 10%);;
+    }
+
+    .message-input input.form-control {
+      border-top-color: $color-dark;
+      border-bottom-color: $color-dark;
+    }
+  }
+}

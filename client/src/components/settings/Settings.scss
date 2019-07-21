@@ -1,0 +1,17 @@
+@import "../../Constants";
+
+.settings {
+  .settings-input {
+    margin-top: 2em;
+    padding-left: 2em;
+
+    &.time-format,
+    &.language,
+    &.theme {
+      .dropdown-item,
+      .form-control {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
