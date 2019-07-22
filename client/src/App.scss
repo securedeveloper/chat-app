@@ -3,8 +3,16 @@
 .app {
   min-height: 100vh;
 
+  // Disabled bootstrap outlining
+  .show > .btn-outline-secondary.dropdown-toggle:focus,
+  .btn:focus,
+  .btn-outline-secondary:focus,
+  .form-control:focus {
+    box-shadow: none;
+  }
+
   &.dark {
-    background-color: lighten($color-dark, 20%);
+    background-color: rgba(lighten($color-dark, 20%), .8);
     color: $color-light;
 
     .dropdown .btn {
@@ -18,11 +26,33 @@
   }
 
   &.light {
-    background-color: lighten($color-light, 10%);
+    background-color: rgba(lighten($color-light, 10%), .8);
     color: $color-dark;
 
     .dropdown .btn {
       color: lighten($color-dark, 10%);;
+    }
+
+    input.form-control {
+      border-top-color: $color-light;
+      border-bottom-color: $color-light;
+    }
+
+    .settings-input {
+      $border-color: lighten($color-dark, 20%);
+      input.form-control,
+      .input-group-text {
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+      }
+
+      input.form-control {
+        border-right: 1px solid $border-color;
+      }
+
+      .input-group-text {
+        border-left: 1px solid $border-color;
+      }
     }
 
     .message-input input.form-control {
