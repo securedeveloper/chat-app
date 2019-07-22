@@ -37,6 +37,9 @@ If application is up and running you may test with the following sample messages
 | Text | This ❤️ sentence includes `:+1:` a variety of emoji types `:)` |
 | Audio | `https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3` |
 | Video | `https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4` |
+| Video | `https://youtu.be/VbfC4lrNulE` |
+| Video | `https://vimeo.com/121649600` |
+| Video | `https://www.dailymotion.com/video/x7dka22` |
 | Image | `https://images.freeimages.com/images/large-previews/e6b/yellow-beetle-1366999.jpg` |
 | URL | `http://gt-america.com/` |
 | URL | `https://www.bbc.com/` |
