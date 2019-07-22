@@ -43,6 +43,7 @@ If application is up and running you may test with the following sample messages
 | Image | `https://images.freeimages.com/images/large-previews/e6b/yellow-beetle-1366999.jpg` |
 | URL | `http://gt-america.com/` |
 | URL | `https://www.bbc.com/` |
+| URL | `http://vk.com/video_ext.php?oid=-111638195&id=456240196&hash=652e3c7665d6e9f4&hd=2` |
 
 ### Functionalities:
 
