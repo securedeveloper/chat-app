@@ -23,7 +23,7 @@ const MessageItem: React.FC<MessageItemProps> = (props: MessageItemProps) => {
     const renderImage = (url: string) => <Image src={url} fluid={true}/>;
     const renderURL = (url: string) => (
         <>
-            <div><a href={url} target="_blank">{url}</a></div>
+            <div><a href={url} target="_blank" rel="noopener noreferrer">{url}</a></div>
             <Iframe url={url} width="100%" height="400px"/>
         </>);
     const renderText = (content: string) => <Emoji text={content}/>;

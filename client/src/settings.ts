@@ -1,7 +1,7 @@
 /**
  * Server URL to connect the socket
  */
-export const SERVER_URL: string = 'http://192.168.0.52:3100/';
+export const SERVER_URL: string = 'http://localhost:3100/';
 
 /**
  * change to True to generate dummy messages in message-list & counter for initial generated messages
