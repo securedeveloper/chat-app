@@ -21,7 +21,7 @@ yarn start
 #Tab-03 (For running unit tests)
 cd chat-app/client
 yarn install #if not installed already
-yarn start
+yarn test
 ```
 * Note: Make sure to bootup the server application before client.
 
@@ -34,7 +34,7 @@ If application is up and running you may test with the following sample messages
 
 | Type | Content |
 |-|-|
-| Text | `This ❤️ sentence includes :+1: a variety of emoji types :)` |
+| Text | This ❤️ sentence includes `:+1:` a variety of emoji types `:)` |
 | Audio | `https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3` |
 | Video | `https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4` |
 | Image | `https://images.freeimages.com/images/large-previews/e6b/yellow-beetle-1366999.jpg` |
