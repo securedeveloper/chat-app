@@ -62,7 +62,7 @@
   }
 
   &.light {
-    @include bubbleColorMixin($color-dark)
+    @include bubbleColorMixin(lighten($color-dark, 10%))
   }
 
   .message-item {
@@ -92,7 +92,7 @@
     }
 
     &.light {
-      @include messageItemMixin($color-dark, $color-light)
+      @include messageItemMixin(lighten($color-dark, 10%), $color-dark)
     }
   }
 }

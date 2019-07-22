@@ -11,6 +11,10 @@
       color: $color-dark;
       background-color: lighten($color-light, 20%);
     }
+
+    .btn-outline-secondary {
+      border-color: $color-light;
+    }
   }
 
   &.light {
